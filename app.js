@@ -1,6 +1,6 @@
 const menu=document.querySelector('#mobile-menu');
 const menuLinks=document.querySelector('.navbar__menu');
-const navLogo=document.querySelector('navbar__logo');
+const navLogo=document.querySelector('#navbar__logo');
 
 // Display mobile menu
 const mobilemenu =()=>{
@@ -54,3 +54,4 @@ const hideMobileMenu=()=>{
 }
 menuLinks.addEventListener('click', hideMobileMenu);
 navLogo.addEventListener('click', hideMobileMenu);
+
